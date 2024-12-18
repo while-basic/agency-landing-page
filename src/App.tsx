@@ -1,8 +1,12 @@
 import { Navbar } from '@/components/layout/Navbar';
 import { Footer } from '@/components/layout/Footer';
 import { Hero } from '@/components/sections/Hero';
-import { Features } from '@/components/sections/Features';
+import { About } from '@/components/sections/About';
+import { Services } from '@/components/sections/Services';
 import { Security } from '@/components/sections/Security';
+import { Portfolio } from '@/components/sections/Portfolio';
+import { Technology } from '@/components/sections/Technology';
+import { Resources } from '@/components/sections/Resources';
 import { CTA } from '@/components/sections/CTA';
 
 function App() {
@@ -10,8 +14,12 @@ function App() {
     <div className="min-h-screen bg-background">
       <Navbar />
       <Hero />
-      <Features />
+      <About />
+      <Services />
       <Security />
+      <Portfolio />
+      <Technology />
+      <Resources />
       <CTA />
       <Footer />
     </div>
